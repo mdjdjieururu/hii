@@ -10,7 +10,7 @@ class Translation(object):
  ഞാൻ MALLU MOVIE SEARCH GROUP എന്ന ഗ്രൂപ്പിൽ മൂവീസ് കൊടുക്കുന്ന ബോട്ട് ആണ് 
  
 എന്നെ മറ്റു ഗ്രൂപ്പിൽ ഒന്നും ഉപയോഗിക്കാൻ കഴിയുകയില്ല
-
+@Yadhukr
 </i>"""    
     
     HELP_TEXT = """
