@@ -27,7 +27,7 @@ async def auto_filter(bot: Client, update: Message):
     
     if ("https://" or "http://") in update.text:
         return
-    
+    To
     # Targetting Only 1000 - 2999 to remove from search query..!
     # Make the below line as: query = update.text to make year too in search query..!
     query = re.sub(r"[1-2]\d{3}", "", update.text) 
@@ -73,11 +73,11 @@ async def auto_filter(bot: Client, update: Message):
             if file_size < 1024:
                 file_size = f"[{file_size} B]"
             elif file_size < (1024**2):
-                file_size = f"[{str(round(file_size/1024, 2))} KiB] "
+                file_size = f"[{str(round(file_size/1024, 2))} KB] "
             elif file_size < (1024**3):
-                file_size = f"[{str(round(file_size/(1024**2), 2))} MiB] "
+                file_size = f"[{str(round(file_size/(1024**2), 2))} MB] "
             elif file_size < (1024**4):
-                file_size = f"[{str(round(file_size/(1024**3), 2))} GiB] "
+                file_size = f"[{str(round(file_size/(1024**3), 2))} GB] "
             
             
             file_size = "" if file_size == ("[0 B]") else file_size
